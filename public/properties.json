@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Mountain View Ranch",
+    "location": "Colorado, USA",
+    "price": 250000,
+    "acres": 25,
+    "category": "Recreational",
+    "image": "/3.png",
+    "downPaymentAvailable": true,
+    "interested": {
+      "current": 3,
+      "total": 5
+    },
+    "description": "This beautiful property offers breathtaking, panoramic views that make it an ideal choice for both recreation and residential purposes."
+  },
+  {
+    "id": 2,
+    "title": "Oceanfront Paradise",
+    "location": "Baja California, Mexico",
+    "price": 450000,
+    "acres": 25,
+    "category": "Recreational",
+    "image": "/2.png",
+    "downPaymentAvailable": true,
+    "interested": {
+      "current": 3,
+      "total": 5
+    },
+    "description": "This beautiful property offers breathtaking, panoramic views that make it an ideal choice for both recreation and residential purposes."
+  },
+  {
+    "id": 3,
+    "title": "Oceanfront Paradise",
+    "location": "Baja California, Mexico",
+    "price": 450000,
+    "acres": 25,
+    "category": "Recreational",
+    "image": "/1.png",
+    "downPaymentAvailable": false,
+    "interested": {
+      "current": 3,
+      "total": 5
+    },
+    "description": "This beautiful property offers breathtaking, panoramic views that make it an ideal choice for both recreation and residential purposes."
+  },
+  {
+    "id": 4,
+    "title": "Mountain View Ranch",
+    "location": "Colorado, USA",
+    "price": 250000,
+    "acres": 25,
+    "category": "Recreational",
+    "image": "/4.png",
+    "downPaymentAvailable": true,
+    "interested": {
+      "current": 3,
+      "total": 5
+    },
+    "description": "This beautiful property offers breathtaking, panoramic views that make it an ideal choice for both recreation and residential purposes."
+  },
+  {
+    "id": 5,
+    "title": "Oceanfront Paradise",
+    "location": "Baja California, Mexico",
+    "price": 450000,
+    "acres": 25,
+    "category": "Recreational",
+    "image": "/5.png",
+    "downPaymentAvailable": true,
+    "interested": {
+      "current": 0,
+      "total": 5
+    },
+    "description": "This beautiful property offers breathtaking, panoramic views that make it an ideal choice for both recreation and residential purposes."
+  },
+  {
+    "id": 6,
+    "title": "Oceanfront Paradise",
+    "location": "Baja California, Mexico",
+    "price": 450000,
+    "acres": 25,
+    "category": "Recreational",
+    "image": "/6.png",
+    "downPaymentAvailable": false,
+    "interested": {
+      "current": 0,
+      "total": 5
+    },
+    "description": "This beautiful property offers breathtaking, panoramic views that make it an ideal choice for both recreation and residential purposes."
+  }
+]
