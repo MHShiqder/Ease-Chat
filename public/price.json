@@ -6,11 +6,11 @@
     "billing_period": "month",
     "features": [
       "List up to 5 properties",
-      "Standard search ranking",
-      "Buyer chat access"
+      "Standard search ranking"
     ],
     "not_included": [
-      "Free daily boosts"
+      "Free daily boosts",
+      "Buyer chat access"
     ]
   },
   {
