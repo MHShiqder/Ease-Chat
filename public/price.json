@@ -1,0 +1,41 @@
+[
+  {
+    "plan": "Basic",
+    "description": "Perfect for occasional sellers",
+    "price": 29,
+    "billing_period": "month",
+    "features": [
+      "List up to 5 properties",
+      "Standard search ranking",
+      "Buyer chat access"
+    ],
+    "not_included": [
+      "Free daily boosts"
+    ]
+  },
+  {
+    "plan": "Premium",
+    "description": "Ideal for active sellers with multiple properties",
+    "price": 59,
+    "billing_period": "month",
+    "features": [
+      "Unlimited listings",
+      "Higher search ranking",
+      "Buyer chat access",
+      "1 free daily boost/month"
+    ]
+  },
+  {
+    "plan": "Annual Premium",
+    "description": "Best value for professional",
+    "note": "Save $209 compared to monthly",
+    "price": 499,
+    "billing_period": "year",
+    "features": [
+      "Unlimited listings",
+      "Best search ranking",
+      "Buyer chat access",
+      "12 free daily boosts"
+    ]
+  }
+]

@@ -29,7 +29,7 @@ export default function Properties() {
 
   return (
     <div className="bg-[#f9f5ed] p-32">
-      <div className="flex mb-28 items-center justify-between">
+      <div className="flex mb-14 items-center justify-between">
         <div>
           <h1 className="text-5xl font-semibold text-primary mb-2">
             Featured Properties
@@ -45,11 +45,12 @@ export default function Properties() {
           <button className="w-[187px] h-14 bg-primary text-white rounded-md  font-medium">
             View all properties
           </button>
-          <button className="w-[187px] h-14 bg-white text-primary rounded-md border border-[#B9C2DA] font-medium">
-            View Map
+          <button className="w-[187px] h-14 bg-white text-primary rounded-md border border-[#B9C2DA] font-medium flex items-center justify-center gap-2">
+            <img className="w-6 h-6" src="/location.png" alt="" />
+            <span>View Map</span>
           </button>
           <button className="w-[187px] h-14 bg-white text-primary rounded-md border border-[#B9C2DA] font-medium">
-            View Featured
+            Featured
           </button>
           
         </div>

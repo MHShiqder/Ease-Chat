@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import type { SubmitHandler } from "react-hook-form";
 
 type Inputs = {
-  example: string;
+  location: string;
   property: string;
   country: string;
   minPrice: number;
@@ -20,7 +20,7 @@ export default function PropertySearch() {
   } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data);
 
-  console.log(watch("example")); // watch input value by passing the name of it
+  console.log(watch("location")); // watch input value by passing the name of it
 
   return (
     <div className="bg-[#E8EBF3] py-10 px-32">
@@ -28,11 +28,14 @@ export default function PropertySearch() {
         onSubmit={handleSubmit(onSubmit)}
         className="grid grid-cols-6 gap-8 "
       >
-        <input
-          defaultValue="test"
-          {...register("example")}
-          className={`${inputStyle} col-span-2`}
+        <div className="col-span-2 relative">
+          <input
+          placeholder="Search of location"
+          {...register("location")}
+          className={`${inputStyle} w-full pl-14`}
         />
+        <img src="/location.png" alt="" className="h-6 w-6 absolute top-4 left-5"/>
+        </div>
         <input
           placeholder="Min Price"
           type="number"

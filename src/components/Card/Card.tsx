@@ -1,4 +1,5 @@
 import type { Property } from "../Properties/Properties";
+import { Button } from "../ui/button";
 
 interface CardProps {
   property: Property;
@@ -8,9 +9,15 @@ export default function Card({ property }: CardProps) {
   return (
     <div>
       <div className="card bg-base-100 ">
-        <figure>
-          <img src={property.image} alt="Shoes" />
-        </figure>
+        <div className="relative ">
+          <figure>
+            <img src={property.image} alt="Shoes" />
+          </figure>
+          <Button className="absolute top-4 left-4">Recreational</Button>
+          <div className="bg-white rounded-md p-2 absolute top-4 right-4">
+            <img src="/heart.png" alt="" className="w-8 h-8" />
+          </div>
+        </div>
         <div className="p-5">
           <div className="space-y-2">
             <h2 className="card-title font-medium text-2xl text-primary">
