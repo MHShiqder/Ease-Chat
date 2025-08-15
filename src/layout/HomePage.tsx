@@ -1,3 +1,4 @@
+import Faq from "@/components/Faq/Faq";
 import HeroSection from "@/components/HeroSection/HeroSection";
 import Pricing from "@/components/Pricing/Pricing";
 import Properties from "@/components/Properties/Properties";
@@ -15,6 +16,7 @@ export default function HomePage() {
         <WhyChooseUs></WhyChooseUs>
         <Pricing/>
         <WorldMap/>
+        <Faq/>
     </div>
   )
 }
