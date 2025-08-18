@@ -33,7 +33,7 @@ const faqData: FAQItem[] = [
 
 export default function Faq() {
   return (
-    <section className="bg-primary mx-32 rounded-lg py-20 px-44">
+    <section className="bg-primary mx-32 rounded-lg py-20 px-44 mb-20">
       <header className="pb-12">
         <h1 className="text-white font-semibold mb-6 text-5xl">
           Frequently Asked Questions

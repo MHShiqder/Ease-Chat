@@ -1,0 +1,59 @@
+/* -------------------------------
+   Hide default Swiper buttons
+--------------------------------- */
+.review-swiper .swiper-button-prev,
+.review-swiper .swiper-button-next {
+  display: none !important;
+}
+
+/* -------------------------------
+   Swiper Slide Styling
+--------------------------------- */
+.review-swiper .swiper-slide {
+    opacity: 0.6;
+  transform: scale(0.8);
+  transition: all 0.4s ease;
+  filter: grayscale(100%);
+}
+
+/* Active slide normal color */
+.review-swiper .swiper-slide-active {
+    opacity: 1;
+  transform: scale(1);
+  filter: grayscale(0%);
+  z-index: 10;
+}
+
+/* -------------------------------
+   Custom Navigation Buttons
+--------------------------------- */
+.swiper-navigation-button {
+  background: #BDCDEC; /* primary color */
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px; /* fully rounded */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.25rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s, transform 0.2s;
+}
+
+.swiper-navigation-button:hover {
+  background: #16307a; /* darker shade */
+  transform: scale(1.1); /* subtle hover scale */
+}
+
+/* -------------------------------
+   Navigation Container Under Swiper
+--------------------------------- */
+.swiper-navigation-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* space between buttons */
+  margin-top: 1rem; /* distance from slides */
+  padding-bottom: 1rem; /* distance from slides */
+}
