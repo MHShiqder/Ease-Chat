@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 export default function Header() {
@@ -73,9 +73,7 @@ export default function Header() {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-[#1C3988] hover:bg-[#1C3988] text-white border-none rounded-[8px] w-[118px]">
-            Login
-          </a>
+          <Link to={"/login"} className="btn bg-[#1C3988] hover:bg-[#1C3988] text-white border-none rounded-[8px] w-[118px]">Login</Link>
         </div>
       </div>
     </div>
