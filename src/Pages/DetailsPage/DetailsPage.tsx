@@ -4,6 +4,6 @@ export default function DetailsPage() {
     const {id}=useParams()
     
   return (
-    <div>{id}</div>
+    <div>{id} </div>
   )
 }
