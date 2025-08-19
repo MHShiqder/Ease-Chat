@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import type { Property } from "../Properties/Properties";
 import { Button } from "../ui/button";
 
@@ -63,9 +64,9 @@ export default function Card({ property }: CardProps) {
             are title and actions parts
           </p>
           <div className="card-actions ">
-            <button className="montserrat-font w-full py-4 bg-primary text-white mt-10 rounded-md font-medium">
+            <Link to={`/propertyDetails/${property.id}`} className="montserrat-font w-full  bg-primary text-white mt-10 rounded-md font-medium cursor-pointer"><button className=" w-full py-4 cursor-pointer">
               View Details
-            </button>
+            </button></Link>
           </div>
         </div>
       </div>
