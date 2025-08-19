@@ -8,6 +8,7 @@ import {
 import  Root from './layout/Root';
 import HomePage from './layout/HomePage';
 import Login from './Pages/Login/Login';
+import DetailsPage from './Pages/DetailsPage/DetailsPage';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path:"/login",
         element:<Login></Login>
+      },
+      {
+        path:"/propertyDetails/:id",
+        element:<DetailsPage></DetailsPage>
       },
     ]
   },
