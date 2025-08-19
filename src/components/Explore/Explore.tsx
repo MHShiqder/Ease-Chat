@@ -15,18 +15,18 @@ export default function Explore() {
         users worldwide.
       </p>
       <div className="grid grid-cols-6 w-full gap-6 mt-12">
-        <Button className="bg-[#E8EBF3] text-primary">United States</Button>
-        <Button className="bg-[#E8EBF3] text-primary">Canada</Button>
-        <Button className="bg-[#E8EBF3] text-primary">Mexico</Button>
-        <Button className="bg-[#E8EBF3] text-primary">Brazil</Button>
-        <Button className="bg-[#E8EBF3] text-primary">Spain</Button>
-        <Button className="bg-[#E8EBF3] text-primary">Australia</Button>
-        <Button className="bg-[#E8EBF3] text-primary">United kingdom</Button>
-        <Button className="bg-[#E8EBF3] text-primary">France</Button>
-        <Button className="bg-[#E8EBF3] text-primary">Germany</Button>
-        <Button className="bg-[#E8EBF3] text-primary">Italy</Button>
-        <Button className="bg-[#E8EBF3] text-primary">Japan</Button>
-        <Button className="bg-[#E8EBF3] text-primary">South Africa</Button>
+        <Button className="bg-[#E8EBF3] text-primary hover:text-white">United States</Button>
+        <Button className="bg-[#E8EBF3] text-primary hover:text-white">Canada</Button>
+        <Button className="bg-[#E8EBF3] text-primary hover:text-white">Mexico</Button>
+        <Button className="bg-[#E8EBF3] text-primary hover:text-white">Brazil</Button>
+        <Button className="bg-[#E8EBF3] text-primary hover:text-white">Spain</Button>
+        <Button className="bg-[#E8EBF3] text-primary hover:text-white">Australia</Button>
+        <Button className="bg-[#E8EBF3] text-primary hover:text-white">United kingdom</Button>
+        <Button className="bg-[#E8EBF3] text-primary hover:text-white">France</Button>
+        <Button className="bg-[#E8EBF3] text-primary hover:text-white">Germany</Button>
+        <Button className="bg-[#E8EBF3] text-primary hover:text-white">Italy</Button>
+        <Button className="bg-[#E8EBF3] text-primary hover:text-white">Japan</Button>
+        <Button className="bg-[#E8EBF3] text-primary hover:text-white">South Africa</Button>
       </div>
     </div>
   );
